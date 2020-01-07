@@ -48,9 +48,7 @@ a:hover{
   color: #AAA;
   padding: 10px 20px;
 }
-.copyright{
-  font-size: 0.75rem;
-}
+
 .btn {
 	background-color:#222;
 	border-top-left-radius:10px;
@@ -81,7 +79,9 @@ a:hover{
 	top:1px;
 }
 
-
+.copyright{
+  font-size: 13px;
+}
 .cloud-up {
   position: relative;
   left: 250px;
@@ -93,19 +93,33 @@ a:hover{
 }
 .contact-message{
   width: 50%;
-  margin: auto;
+  margin: 50px auto;
+  text-align: left;
+}
+.chilli-img {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-right: 10px;
+}
+.development-img {
+  width: 15%;
+  height: 15%;
+  float: left;
+  margin-right: 10px;
 }
 .top-info {
   margin-top: 60px;
 }
 .intro{
-  width: 35%;
-  margin: auto;
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
 }
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto;
   text-align: left;
 }
 
@@ -114,25 +128,11 @@ a:hover{
   height: 12%;
 }
 
-.development-img {
-  width: 15%;
-  height: 15%;
-  float: left;
-  margin-right: 10px;
-}
-
-.chilli-img {
-  width: 20%;
-  height: 20%;
-  float: right;
-  margin-right: 10px;
-}
-
 .pro {
   text-decoration: underline;
   color: #FFF;
 }
 
 .programmer {
-  font-size: 1.7rem;
+  font-size: 27px;
 }
